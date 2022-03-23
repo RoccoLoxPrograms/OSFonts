@@ -1,5 +1,5 @@
 temp.bin: OSSmallFont.fnt
-	convfont -o fontpack -N "OS Small Font" -P "ASCII" -V "Version 1.1" -A "RoccoLox Programs" \
+	convfont -o fontpack -N "OS Small Font" -P "ASCII" -V "Version 2.0" -A "RoccoLox Programs" \
 	-D "OS small font for FontLibC" \
 	-f OSSmallFont.fnt -a 1 -b 1 \
 	temp.bin
